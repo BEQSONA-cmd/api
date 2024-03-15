@@ -33,7 +33,6 @@ exports.hello = async (req, res) => {
         return res.status(500).send('Internal Server Error');
       }
 
-      // Send the output in the success case
       return res.send(output);
     });
   } catch (error) {

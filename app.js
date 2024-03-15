@@ -11,7 +11,7 @@ const bodyParser = require("body-parser");
 const app = express();
 
 const limiter = rateLimit({
-    windowMs: 900, // time in seconds
+    windowMs: 900,
     max: 500,
 });
 
